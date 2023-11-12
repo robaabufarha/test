@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+    * {
+        margin : 0;
+        padding: 0;
+    }
+    header { background-color: rgb(255, 255, 255);
+        display: flex;
+        margin : 0;
+        padding :0;
+        height: 50px;
+        justify-content: space-between;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+           }
+    body {
+     margin :0;
+      font:sans-serif;
+        background-color: #fafafa;
+    }
+    .l1  {
+    color: #000;
+    text-decoration: none;
+    
+    margin-left: 35px;
+    margin-right: 35px;
+    }
+    .l2{
+     margin-top: 50px; 
+    }
+    .all {
+        margin-top: 100px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    
+    
+    #hed { 
+        padding-left: 35px;
+       padding-top: 10px;
+    
+    }
+    #dmb {
+        padding-top: 15px;
+        padding-right: 35px;
+    
+    }
+    h4 {
+        display: inline;
+    }
+    button{
+        width: 90px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-color:rgb(255, 255, 255) ;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    .container > div {
+      
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      grid-template-rows: 320px ;
+      grid-gap: 40px;
+      gap: 40px;
+      
+    }
+    .con2{
+        display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: 320px ;
+      grid-gap: 40px;
+      gap: 40px;
+      
+    
+    }
+    .b2{display:inline;}
+    .flag img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .info {
+        margin-left: 20px;
+    }
+    @media only screen and (max-width: 767px) {
+        header {
+          
+          
+          font-size: 10px;
+        }
+        .container {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: 320px 320px ;
+      grid-gap: 40px;
+      gap: 40px;
+      
+    }
+    .con2{
+        display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: 160px 160px ;
+      grid-gap: 40px;
+      gap: 40px;
+      
+    
+    }
+    .b1 { 
+        
+         
+          flex-direction: column;
+          align-items: left;
+        }
+    .b2 {
+        margin-top: 10px;
+    }
+    
+    
+    }
+    </style>
+    </head>
+    
+    <header>
+        <h1 id="hed">Where in the world?</h1>
+        <p id="dmb">  🌙 Dark Mode </p> 
+    </header>
+    
+        <div class="l2"><a class="l1" href="Index.html"> <button> ← Back</button>  </a></div>
+    <div class="all">
+        
+    <div class="flag">
+    <div class="container">
+        
+        <div>
+            <img src="file:///C:/Users/orbit/Downloads/de.svg" alt="Germany flag">
+            
+        </div>
+        <div class="con2">
+             <div>
+            <article class="info"><br><br> <h2>Belgium</h2> <br><br> <h4>Native Name:</h4> Belgie<br>
+            <h4>Population:</h4> 11,319,511<br>
+             <h4>Reagion:</h4> Europe<br> 
+             <h4>Sub Reagion:</h4>Westren Europe<br>
+             <h4>Capital:</h4>Brussols <br><br><br><br>
+             <div class="b1"><h4>Border Countries:</h4><div class="b2"> <button>France</button> <button>Germany</button> <button>Netherlands</button></div>
+            </div></article>
+            </div>
+            <div>
+                <article class="info"><br><br> <h2></h2> <br><br><br><br> <h4>Top level Domain:</h4> be<br>
+                <h4>Currencies:</h4> Euro<br>
+                 <h4>Reagion:</h4> Europe<br> 
+                 <h4>Langage:</h4>Dotch, French, German<br>
+                  <br><br></article>
+                </div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+</body>
+</html>
